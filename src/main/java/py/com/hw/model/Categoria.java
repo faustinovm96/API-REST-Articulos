@@ -19,24 +19,24 @@ public class Categoria {
 	private Integer id;
 	private String categoria;
 	private String descripcion;
-	
-	@OneToMany(mappedBy = "categoria", fetch = FetchType.LAZY)
-	private List<Articulo> articulos;
+//	
+//	@OneToMany(mappedBy = "categoria", fetch = FetchType.LAZY)
+//	private List<Articulo> articulos;
 	
 	public Categoria() {
 	}
 	/**
 	 * @return the articulos
 	 */
-	public List<Articulo> getArticulos() {
-		return articulos;
-	}
+//	public List<Articulo> getArticulos() {
+//		return articulos;
+//	}
 	/**
 	 * @param articulos the articulos to set
 	 */
-	public void setArticulos(List<Articulo> articulos) {
-		this.articulos = articulos;
-	}
+//	public void setArticulos(List<Articulo> articulos) {
+//		this.articulos = articulos;
+//	}
 	/**
 	 * @return the id
 	 */
